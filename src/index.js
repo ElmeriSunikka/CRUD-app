@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import CRUD from './CRUD'; //Tää pitää muuttaa tiedoston nimeks ja kans toi rivi 11
 import reportWebVitals from './reportWebVitals';
+import'./CRUD.css'; //muista kans muuttaa CSS:ää
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CRUD /> 
   </React.StrictMode>
 );
 
