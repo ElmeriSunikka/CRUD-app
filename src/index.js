@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import CRUD from './CRUD'; //Tää pitää muuttaa tiedoston nimeks ja kans toi rivi 11
+import CRUD from './CRUD'; 
 import reportWebVitals from './reportWebVitals';
-import'./CRUD.css'; //muista kans muuttaa CSS:ää
+import'./CRUD.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

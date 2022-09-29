@@ -2,6 +2,10 @@ import React, { useEffect } from 'react';
 import './CRUD.css';
 
 function CRUD() {
+  //firstName, lastName and age are input given by user, nameArray is the array where all the user input is stored and put into a table
+  //editing and currentUser gets activated and assists when user wants to edit a specific table row
+  //currentID helps identify which row needs to be edited
+  //buttonState changes between Submit and Update depending on what action the user is doing
   const [firstName, setFirstName] = React.useState();
   const [lastName, setLastName] = React.useState();
   const [age, setAge] = React.useState();
